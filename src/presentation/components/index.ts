@@ -1,3 +1,4 @@
+export * from "./contact-form/contact-form";
 export * from "./project-card/project-card";
 export * from "./tech-stack/tech-stack";
 export * from "./ui";
