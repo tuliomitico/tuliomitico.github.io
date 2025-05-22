@@ -3,6 +3,7 @@ import {
   ProjectCard,
   LinkedIn as Linkedin,
   Kaggle,
+  ThemeToggle,
 } from "@/presentation/components";
 import ContactForm from "@/presentation/components/contact-form/contact-form";
 import TechStack from "@/presentation/components/tech-stack/tech-stack";
@@ -41,7 +42,8 @@ export function Home() {
               </a>
             </nav>
           </div>
-          <div className="ml-auto">
+          <div className="flex flex-1 items-center justify-end gap-2">
+            <ThemeToggle />
             <Button variant="outline">CV</Button>
           </div>
         </div>

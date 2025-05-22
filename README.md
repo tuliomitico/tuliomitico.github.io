@@ -18,7 +18,8 @@ Functional requirements
 - [x] Show the projects
 - [ ] The form somehow has to send to a database
 - [ ] The site must have the english version
-- [ ] The site must have dark version
+- [x] The site must have dark version
+- [ ] The CV/Resume Button must redirect to a resume
 
 Non-Functional requirements
 ---
