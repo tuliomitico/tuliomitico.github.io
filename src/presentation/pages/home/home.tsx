@@ -44,7 +44,15 @@ export function Home() {
           </div>
           <div className="flex flex-1 items-center justify-end gap-2">
             <ThemeToggle />
-            <Button variant="outline">CV</Button>
+            <Button variant="outline" asChild>
+              <a
+                href="https://drive.google.com/file/d/1MxUUI8IqQ1K3tBWHxW3qH3dcXT10owkJ/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CV
+              </a>
+            </Button>
           </div>
         </div>
       </header>
